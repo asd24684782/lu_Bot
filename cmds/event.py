@@ -11,7 +11,7 @@ with open('setting.json','r',encoding='utf8') as jfile:
 class Event(Cog_Extension):
 
 
-
+    
     @commands.Cog.listener()
     async def on_member_join(self,member):
         channel = self.bot.get_channel(jdata['GENERAL'])
